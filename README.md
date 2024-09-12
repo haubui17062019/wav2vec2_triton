@@ -23,3 +23,7 @@ docker run --gpus '"device=1"' -it --name triton_wav2vec2 \
 ```bash
 tritonserver --model-repository=/mnt/model/ --model-control-mode=explicit --load-model=wav2vec2
 ```
+
+# TODO
+- Cần chỉnh lại length khi convert triton
+- Coding word-level timestamps 
