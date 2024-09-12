@@ -27,3 +27,4 @@ tritonserver --model-repository=/mnt/model/ --model-control-mode=explicit --load
 # TODO
 - Cần chỉnh lại length khi convert triton
 - Coding word-level timestamps 
+- Cắt thành chunk 30s cho mỗi lần infer tránh out of memory: tham khảo whisper
